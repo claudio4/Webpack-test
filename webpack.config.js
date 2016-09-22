@@ -19,7 +19,7 @@ module.exports = {
         loaders: [
             {
                 test: /(\.js|.jsx)$/,
-                loader: 'balel',
+                loader: 'babel',
                 exclude: '/node_modules/',
                 query: {
                     presets: ['es2015']
